@@ -2,13 +2,13 @@
 
 int main()
 {
-    printf("½Ð¿é¤J¦è¤¸¦~¤À:");
+    printf("�п�J�褸�~��:");
 
     int n;
     scanf("%d", &n);
 
-    if (n%400==0) printf("¶|¦~");
-    else if (n%100==0) printf("¥­¦~/´¶³q¦~");
-    else if (n%4==0) printf("¶|¦~");
-    else printf("¥­¦~/´¶³q¦~");
+    if (n%400==0) printf("�|�~");
+    else if (n%100==0) printf("���~/���q�~");
+    else if (n%4==0) printf("�|�~");
+    else printf("���~/���q�~");
 }
